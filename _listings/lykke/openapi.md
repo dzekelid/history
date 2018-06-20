@@ -1,0 +1,134 @@
+---
+swagger: "2.0"
+x-collection-name: Lykke
+x-complete: 1
+info:
+  title: Wallet_Api
+  version: 1.0.0
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /api/Ethereum/history/{address}:
+    get:
+      summary: Get API Ethereum History Address
+      description: Get api ethereum history address.
+      operationId: ApiEthereumHistoryByAddressGet
+      x-api-path-slug: apiethereumhistoryaddress-get
+      parameters:
+      - in: path
+        name: address
+      - in: query
+        name: assetId
+      - in: header
+        name: Authorization
+        description: access token
+      - in: query
+        name: count
+      - in: query
+        name: start
+      responses:
+        200:
+          description: OK
+      tags:
+      - Ethereum
+      - History
+      - Ress
+  /api/History:
+    get:
+      summary: Get API History
+      description: Get api history.
+      operationId: ApiHistoryGet
+      x-api-path-slug: apihistory-get
+      parameters:
+      - in: query
+        name: assetId
+      - in: header
+        name: Authorization
+        description: access token
+      responses:
+        200:
+          description: OK
+      tags:
+      - History
+  /api/History/limit/trades:
+    get:
+      summary: Get API History Limit Trades
+      description: Get api history limit trades.
+      operationId: ApiHistoryLimitTradesGet
+      x-api-path-slug: apihistorylimittrades-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: access token
+      - in: query
+        name: orderId
+      responses:
+        200:
+          description: OK
+      tags:
+      - History
+      - Limit
+      - Trades
+  /api/History/limit/order:
+    get:
+      summary: Get API History Limit Order
+      description: Get api history limit order.
+      operationId: ApiHistoryLimitOrderGet
+      x-api-path-slug: apihistorylimitorder-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: access token
+      - in: query
+        name: orderId
+      responses:
+        200:
+          description: OK
+      tags:
+      - History
+      - Limit
+      - Order
+  /api/History/limit/history:
+    get:
+      summary: Get API History Limit History
+      description: Get api history limit history.
+      operationId: ApiHistoryLimitHistoryGet
+      x-api-path-slug: apihistorylimithistory-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: access token
+      - in: query
+        name: orderId
+      responses:
+        200:
+          description: OK
+      tags:
+      - History
+      - Limit
+      - History
+  /api/PrivateWalletHistory:
+    get:
+      summary: Get API Privatewallethistory
+      description: Get api privatewallethistory.
+      operationId: ApiPrivateWalletHistoryGet
+      x-api-path-slug: apiprivatewallethistory-get
+      parameters:
+      - in: query
+        name: address
+      - in: query
+        name: assetId
+      - in: header
+        name: Authorization
+        description: access token
+      responses:
+        200:
+          description: OK
+      tags:
+      - Privatewallethistory
+---
