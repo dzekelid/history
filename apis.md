@@ -4,7 +4,7 @@ description: This is a repository of history APIs, self-contained as a Github re
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/history.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://history.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -34,18 +34,18 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/google-service-management/apis.yaml
 - name: Azure HDInsight
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/azure-hdinsight/apis.yaml
-- name: Weatherbit
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/weatherbit/apis.yaml
+- name: Weatherbit.io
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/weatherbit-io/apis.yaml
 - name: Stack Exchange
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/stack-exchange/apis.yaml
-- name: Lykke
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/lykke/apis.yaml
 - name: CloudFlare
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/cloudflare/apis.yaml
 - name: OpenDNS
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/opendns/apis.yaml
 - name: Firebase
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/firebase/apis.yaml
+- name: Lykke
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/lykke/apis.yaml
 - name: NPR
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/npr/apis.yaml
 - name: Xignite
