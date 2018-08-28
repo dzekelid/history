@@ -7,72 +7,69 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instru
 x-kinRank: "8"
 x-alexaRank: "367"
 tags: History
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/instructure/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Instructure Canvas Courses API Details for a given date in gradebook history
+- name: Instructure Canvas Courses API - Details for a given date in gradebook history
     for this course
-  x-api-slug: instructure-canvas-courses-api
+  x-api-slug: coursescourse-idgradebook-historydate-get
   description: Details for a given date in gradebook history for this course.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//courses/{course_id}/gradebook_history/date
-  tags: Courses,Course,Id,Gradebook,History,Date
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/instructure/coursescourse-idgradebook-historydate-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/instructure/coursescourse-idgradebook-historydate-get-openapi.md
-- name: Instructure Canvas Courses API Lists submissions
-  x-api-slug: instructure-canvas-courses-api
+- name: Instructure Canvas Courses API - Lists submissions
+  x-api-slug: coursescourse-idgradebook-historydategradersgrader-idassignmentsassignment-idsubmissions-get
   description: Lists submissions.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//courses/{course_id}/gradebook_history/date/graders/{grader_id}/assignments/assignment_id/submissions
-  tags: Courses,Course,Id,Gradebook,History,Date,Graders,Grader,Id,Assignments,Assignment,Id,Submissions
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/instructure/coursescourse-idgradebook-historydategradersgrader-idassignmentsassignment-idsubmissions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/instructure/coursescourse-idgradebook-historydategradersgrader-idassignmentsassignment-idsubmissions-get-openapi.md
-- name: Instructure Canvas Courses API Days in gradebook history for this course
-  x-api-slug: instructure-canvas-courses-api
+- name: Instructure Canvas Courses API - Days in gradebook history for this course
+  x-api-slug: coursescourse-idgradebook-historydays-get
   description: Days in gradebook history for this course.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//courses/{course_id}/gradebook_history/days
-  tags: Courses,Course,Id,Gradebook,History,Days
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/instructure/coursescourse-idgradebook-historydays-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/instructure/coursescourse-idgradebook-historydays-get-openapi.md
-- name: Instructure Canvas Courses API List uncollated submission versions
-  x-api-slug: instructure-canvas-courses-api
+- name: Instructure Canvas Courses API - List uncollated submission versions
+  x-api-slug: coursescourse-idgradebook-historyfeed-get
   description: List uncollated submission versions.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//courses/{course_id}/gradebook_history/feed
-  tags: Courses,Course,Id,Gradebook,History,Feed
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/instructure/coursescourse-idgradebook-historyfeed-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/instructure/coursescourse-idgradebook-historyfeed-get-openapi.md
-- name: Instructure Canvas Courses API
-  x-api-slug: instructure-canvas-courses-api
-  description: Instructure makes software that makes smarter people. Products include
-    Canvas LMS, Bridge and Canvas Network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
-  humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1
-  tags: History
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/instructure/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://instagram.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://instructure.stack.network
 - type: x-blog
   url: http://blog.instructure.com
 - type: x-blog-rss

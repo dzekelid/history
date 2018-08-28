@@ -9,53 +9,44 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/843-mailje
 x-kinRank: "9"
 x-alexaRank: "20242"
 tags: History
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/mailjet/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Mailjet Messages API Message History
-  x-api-slug: mailjet-messages-api
+- name: Mailjet Messages API - Message History
+  x-api-slug: messagehistory-get
   description: List message history resources
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/843-mailjet.jpg
   humanURL: http://mailjet.com
-  baseURL: https://api.mailjet.com/v3/REST//messagehistory/
-  tags: Message,History
+  baseURL: https://api.mailjet.com/v3/REST/
+  tags: Campaign, Cloud, Metrics, Marketing, Stack Network, Getting Started Example,
+    Technology, SaaS, internet, API Provider, Emails, Messages, Profiles, Emails,
+    Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/mailjet/messagehistory-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/mailjet/messagehistory-get-openapi.md
-- name: Mailjet Messages API Message History
-  x-api-slug: mailjet-messages-api
+- name: Mailjet Messages API - Message History
+  x-api-slug: messagehistoryid-get
   description: Get the history of a message.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/843-mailjet.jpg
   humanURL: http://mailjet.com
-  baseURL: https://api.mailjet.com/v3/REST//messagehistory/{id}
-  tags: Message,History
+  baseURL: https://api.mailjet.com/v3/REST/
+  tags: Campaign, Cloud, Metrics, Marketing, Stack Network, Getting Started Example,
+    Technology, SaaS, internet, API Provider, Emails, Messages, Profiles, Emails,
+    Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/mailjet/messagehistoryid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/mailjet/messagehistoryid-get-openapi.md
-- name: Mailjet Messages API
-  x-api-slug: mailjet-messages-api
-  description: 'Mailjet is a real-time Cloud Emailing platform: scalable, agile and
-    flexible! Our unique algorithm boosts your deliverability and our platform provides
-    in-depth insight so you can optimize more than ever. Because 20% of emails never
-    reach the inbox Mailjet is a logical choice! Communication to and from our API
-    is done through HTTP(S) GET and POST queries. We support different formats to
-    choose from depending on your affinities : JSON, XML, serialized PHP, and CSV
-    for some export functions. You can access our API from almost any programming
-    language, and in just a few minutes with our plug and play libraries.'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/843-mailjet.jpg
-  humanURL: http://mailjet.com
-  baseURL: https://api.mailjet.com/v3/REST/
-  tags: History
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/mailjet/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://mailgun.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://mailjet.stack.network
 - type: x-base
   url: https://api.mailjet.com/
 - type: x-blog

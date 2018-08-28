@@ -15,6 +15,62 @@ produces:
 consumes:
 - application/json
 paths:
+  /GetSplitHistory:
+    get:
+      summary: Get Split History
+      description: Get split history for a stock for a date range.
+      operationId: postGetsplithistory
+      x-api-path-slug: getsplithistory-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Split
+      - History
+  /GetCashDividendHistory:
+    get:
+      summary: Get Cash Dividend History
+      description: Get cash dividend history for a stock for a date range.
+      operationId: postGetcashdivendhistory
+      x-api-path-slug: getcashdividendhistory-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Cash
+      - Dividend
+      - History
+  /GetCorporateActionHistory:
+    get:
+      summary: Get Corporate Action History
+      description: Get the corporate action history for a stock for a date range.
+      operationId: postGetcorporateactionhistory
+      x-api-path-slug: getcorporateactionhistory-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Corporate
+      - Action
+      - History
   /GetDividendHistory:
     get:
       summary: Get Dividend History
@@ -111,24 +167,6 @@ paths:
       - Dividend
       - History
       - Range
-  /GetSplitHistory:
-    get:
-      summary: Get Split History
-      description: Get split history for a stock for a date range.
-      operationId: postGetsplithistory
-      x-api-path-slug: getsplithistory-get
-      parameters:
-      - in: body
-        name: body
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Market Data
-      - Split
-      - History
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

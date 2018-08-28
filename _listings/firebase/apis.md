@@ -7,13 +7,13 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "1"
 tags: History
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/firebase/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Firebase List HIstories
-  x-api-slug: firebase
+- name: Firebase - List HIstories
+  x-api-slug: projectidhistories-get
   description: |-
     Lists Histories for a given Project.
 
@@ -24,13 +24,14 @@ apis:
     - PERMISSION_DENIED - if the user is not authorized to read project - INVALID_ARGUMENT - if the request is malformed - NOT_FOUND - if the History does not exist
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
   humanURL: https://Firebase.google.com
-  baseURL: https://{project_id].firebaseio.co}////{projectId}/histories
-  tags: History
+  baseURL: https://{project_id].firebaseio.co}//
+  tags: Data, Real Time, API Provider, API Service Provider, SDIO Competition, Databases,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/firebase/projectidhistories-get-openapi.md
-- name: Firebase Create History
-  x-api-slug: firebase
+- name: Firebase - Create History
+  x-api-slug: projectidhistories-post
   description: |-
     Creates a History.
 
@@ -41,13 +42,14 @@ apis:
     - PERMISSION_DENIED - if the user is not authorized to write to project - INVALID_ARGUMENT - if the request is malformed - NOT_FOUND - if the containing project does not exist
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
   humanURL: https://Firebase.google.com
-  baseURL: https://{project_id].firebaseio.co}////{projectId}/histories
-  tags: History
+  baseURL: https://{project_id].firebaseio.co}//
+  tags: Data, Real Time, API Provider, API Service Provider, SDIO Competition, Databases,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/firebase/projectidhistories-post-openapi.md
-- name: Firebase Get History
-  x-api-slug: firebase
+- name: Firebase - Get History
+  x-api-slug: projectidhistorieshistoryid-get
   description: |-
     Gets a History.
 
@@ -56,13 +58,14 @@ apis:
     - PERMISSION_DENIED - if the user is not authorized to read project - INVALID_ARGUMENT - if the request is malformed - NOT_FOUND - if the History does not exist
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
   humanURL: https://Firebase.google.com
-  baseURL: https://{project_id].firebaseio.co}////{projectId}/histories/{historyId}
-  tags: History
+  baseURL: https://{project_id].firebaseio.co}//
+  tags: Data, Real Time, API Provider, API Service Provider, SDIO Competition, Databases,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/firebase/projectidhistorieshistoryid-get-openapi.md
-- name: Firebase Get Executions
-  x-api-slug: firebase
+- name: Firebase - Get Executions
+  x-api-slug: projectidhistorieshistoryidexecutions-get
   description: |-
     Lists Histories for a given Project.
 
@@ -73,25 +76,23 @@ apis:
     - PERMISSION_DENIED - if the user is not authorized to read project - INVALID_ARGUMENT - if the request is malformed - NOT_FOUND - if the containing History does not exist
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
   humanURL: https://Firebase.google.com
-  baseURL: https://{project_id].firebaseio.co}////{projectId}/histories/{historyId}/executions
-  tags: History
+  baseURL: https://{project_id].firebaseio.co}//
+  tags: Data, Real Time, API Provider, API Service Provider, SDIO Competition, Databases,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/firebase/projectidhistorieshistoryidexecutions-get-openapi.md
-- name: Firebase
-  x-api-slug: firebase
-  description: Firebase is a mobile platform that gives developers the tools and infrastructure
-    to build better apps and grow successful businesses.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
-  humanURL: https://Firebase.google.com
-  baseURL: https://{project_id].firebaseio.co}//
-  tags: History
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/firebase/openapi.md
 x-common:
+- type: x-google-firebase
+  url: Hacker News Search
+- type: x-stack-exchange-search
+  url: Google Firebase
 - type: x-website
   url: https://Firebase.google.com
+- type: x-api-gallery
+  url: http://fire.browse.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://firebase.stack.network
 - type: x-blog
   url: https://firebase.googleblog.com/
 - type: x-blog-rss

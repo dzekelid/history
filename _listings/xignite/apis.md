@@ -7,126 +7,144 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: History
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Xignite Global Historical Get Split History
-  x-api-slug: xignite-global-historical
+- name: Xignite Global Historical - Get Split History
+  x-api-slug: getsplithistory-get
   description: Get split history for a stock for a date range.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical//GetSplitHistory
-  tags: Market Data,Split, History
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/xignite/getsplithistory-get-openapi.md
-- name: Xignite Global Historical Get Cash Dividend History
-  x-api-slug: xignite-global-historical
-  description: Get cash dividend history for a stock for a date range.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical//GetCashDividendHistory
-  tags: Market Data,Cash, Dividend, History
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/xignite/getcashdividendhistory-get-openapi.md
-- name: Xignite Global Historical Get Corporate Action History
-  x-api-slug: xignite-global-historical
-  description: Get the corporate action history for a stock for a date range.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical//GetCorporateActionHistory
-  tags: Market Data,Corporate, Action, History
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/xignite/getcorporateactionhistory-get-openapi.md
-- name: Xignite Global Historical
-  x-api-slug: xignite-global-historical
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
-  tags: History
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/xignite/openapi.md
-- name: Xignite Historical Get Dividend History
-  x-api-slug: xignite-historical
-  description: Get dividend history for a stock.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetDividendHistory
-  tags: Market Data,Dividend, History
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/xignite/getdividendhistory-get-openapi.md
-- name: Xignite Historical Get Dividend History Range
-  x-api-slug: xignite-historical
-  description: Get dividend history for a stock.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetDividendHistoryRange
-  tags: Market Data,Dividend, History, Range
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/xignite/getdividendhistoryrange-get-openapi.md
-- name: Xignite Historical Get Extended Dividend History
-  x-api-slug: xignite-historical
-  description: Get extended dividend history for a stock.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetExtendedDividendHistory
-  tags: Market Data,Extended, Dividend, History
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/xignite/getextendeddividendhistory-get-openapi.md
-- name: Xignite Historical Get Extended Dividend History Range
-  x-api-slug: xignite-historical
-  description: Get extended dividend history range for a stock.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetExtendedDividendHistoryRange
-  tags: Market Data,Extended, Dividend, History, Range
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/xignite/getextendeddividendhistoryrange-get-openapi.md
-- name: Xignite Historical Get Complete Dividend History Range
-  x-api-slug: xignite-historical
-  description: Get extended dividend history range for a stock.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetCompleteDividendHistoryRange
-  tags: Market Data,Complete, Dividend, History, Range
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/xignite/getcompletedividendhistoryrange-get-openapi.md
-- name: Xignite Historical Get Split History
-  x-api-slug: xignite-historical
-  description: Get split history for a stock for a date range.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetSplitHistory
-  tags: Market Data,Split, History
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/xignite/getsplithistory-get-openapi.md
-- name: Xignite Historical
-  x-api-slug: xignite-historical
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
+- name: Xignite Global Historical - Get Cash Dividend History
+  x-api-slug: getcashdividendhistory-get
+  description: Get cash dividend history for a stock for a date range.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/xignite/getcashdividendhistory-get-openapi.md
+- name: Xignite Global Historical - Get Corporate Action History
+  x-api-slug: getcorporateactionhistory-get
+  description: Get the corporate action history for a stock for a date range.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/xignite/getcorporateactionhistory-get-openapi.md
+- name: Xignite Historical - Get Dividend History
+  x-api-slug: getdividendhistory-get
+  description: Get dividend history for a stock.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
-  tags: History
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/xignite/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/xignite/getdividendhistory-get-openapi.md
+- name: Xignite Historical - Get Dividend History Range
+  x-api-slug: getdividendhistoryrange-get
+  description: Get dividend history for a stock.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/xignite/getdividendhistoryrange-get-openapi.md
+- name: Xignite Historical - Get Extended Dividend History
+  x-api-slug: getextendeddividendhistory-get
+  description: Get extended dividend history for a stock.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/xignite/getextendeddividendhistory-get-openapi.md
+- name: Xignite Historical - Get Extended Dividend History Range
+  x-api-slug: getextendeddividendhistoryrange-get
+  description: Get extended dividend history range for a stock.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/xignite/getextendeddividendhistoryrange-get-openapi.md
+- name: Xignite Historical - Get Complete Dividend History Range
+  x-api-slug: getcompletedividendhistoryrange-get
+  description: Get extended dividend history range for a stock.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/xignite/getcompletedividendhistoryrange-get-openapi.md
+- name: Xignite Historical - Get Split History
+  x-api-slug: getsplithistory-get
+  description: Get split history for a stock for a date range.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/xignite/getsplithistory-get-openapi.md
 x-common:
 - type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
+- type: x-api-gallery
+  url: http://xibo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://xignite.stack.network
 - type: x-base
   url: http://globalmaster.xignite.com
 - type: x-case-studies

@@ -9,38 +9,31 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-
 x-kinRank: "8"
 x-alexaRank: "126"
 tags: History
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stack Exchange Get User Reputation History
-  x-api-slug: stack-exchange
+- name: Stack Exchange - Get User Reputation History
+  x-api-slug: usersidsreputationhistory-get
   description: "Returns users' public reputation history.\n \nThis method returns
     a list of reputation_history."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//users/{ids}/reputation-history
-  tags: Users,Reputation,History
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/stack-exchange/usersidsreputationhistory-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/stack-exchange/usersidsreputationhistory-get-openapi.md
-- name: Stack Exchange
-  x-api-slug: stack-exchange
-  description: After someone asks a question, members of the community propose answers.
-    Others vote on those answers. Very quickly, the answers with the most votes rise
-    to the top. You dont have to read through a lot of discussion to find the best
-    answer.    Like to...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
-  humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2
-  tags: History
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/stack-exchange/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://square.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://stack.exchange.stack.network
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
 - type: x-base

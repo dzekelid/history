@@ -7,83 +7,76 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykk
 x-kinRank: "8"
 x-alexaRank: "152167"
 tags: History
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/lykke/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Lykke Get API Ethereum History Address
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Ethereum History Address
+  x-api-slug: apiethereumhistoryaddress-get
   description: Get api ethereum history address.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Ethereum/history/{address}
-  tags: Ethereum,History,Ress
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/lykke/apiethereumhistoryaddress-get-openapi.md
-- name: Lykke Get API History
-  x-api-slug: lykke
+- name: Wallet_Api - Get API History
+  x-api-slug: apihistory-get
   description: Get api history.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/History
-  tags: History
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/lykke/apihistory-get-openapi.md
-- name: Lykke Get API History Limit Trades
-  x-api-slug: lykke
+- name: Wallet_Api - Get API History Limit Trades
+  x-api-slug: apihistorylimittrades-get
   description: Get api history limit trades.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/History/limit/trades
-  tags: History,Limit,Trades
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/lykke/apihistorylimittrades-get-openapi.md
-- name: Lykke Get API History Limit Order
-  x-api-slug: lykke
+- name: Wallet_Api - Get API History Limit Order
+  x-api-slug: apihistorylimitorder-get
   description: Get api history limit order.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/History/limit/order
-  tags: History,Limit,Order
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/lykke/apihistorylimitorder-get-openapi.md
-- name: Lykke Get API History Limit History
-  x-api-slug: lykke
+- name: Wallet_Api - Get API History Limit History
+  x-api-slug: apihistorylimithistory-get
   description: Get api history limit history.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/History/limit/history
-  tags: History,Limit,History
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/lykke/apihistorylimithistory-get-openapi.md
-- name: Lykke Get API Privatewallethistory
-  x-api-slug: lykke
+- name: Wallet_Api - Get API Privatewallethistory
+  x-api-slug: apiprivatewallethistory-get
   description: Get api privatewallethistory.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/PrivateWalletHistory
-  tags: Privatewallethistory
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/lykke/apiprivatewallethistory-get-openapi.md
-- name: Lykke
-  x-api-slug: lykke
-  description: Lykke is a movement to build one global marketplace that is a level
-    playing field where everyone has access.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https:////
-  tags: History
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/lykke/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://lyft.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://lykke.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/lykke-ag
 - type: x-email

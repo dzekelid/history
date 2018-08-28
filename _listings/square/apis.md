@@ -8,52 +8,48 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-squar
 x-kinRank: "9"
 x-alexaRank: "2433"
 tags: History
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Square Connect API Modifies a timecard's details. This creates an API_EDIT
-    event for the timecard. You can view a timecard's event history with the List
-    Timecard Events endpoint.
-  x-api-slug: square-connect-api
+- name: Square Connect - Modifies a timecard's details. This creates an API_EDIT event
+    for the timecard. You can view a timecard's event history with the List Timecard
+    Events endpoint.
+  x-api-slug: v1metimecardstimecard-id-put
   description: Modifies a timecard's details. This creates an API_EDIT event for the
     timecard. You can view a timecard's event history with the List Timecard Events
     endpoint.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
   humanURL: http://square.com
-  baseURL: https://connect.squareup.com////v1/me/timecards/{timecard_id}
-  tags: Modifies,Timecards,Details,,This,Creates,EDIT,Eventthe,Timecard,,You,Can,View,Timecards,Event,History,List,Timecard,Events,Endpoint
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/square/v1metimecardstimecard-id-put-openapi.md
-- name: Square Connect API Provides comprehensive information for a single online
-    store order, including the order's history.
-  x-api-slug: square-connect-api
+- name: Square Connect - Provides comprehensive information for a single online store
+    order, including the order's history.
+  x-api-slug: v1location-idordersorder-id-get
   description: Provides comprehensive information for a single online store order,
     including the order's history.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
   humanURL: http://square.com
-  baseURL: https://connect.squareup.com////v1/{location_id}/orders/{order_id}
-  tags: Provides,Comprehensive,Informationa,Single,Online,Store,Order,,Including,Orders,History
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/square/v1location-idordersorder-id-get-openapi.md
-- name: Square Connect API
-  x-api-slug: square-connect-api
-  description: Square helps millions of sellers run their business- from secure credit
-    card processing to point of sale solutions. Get paid faster with Square and sign
-    up today!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://square.com
-  baseURL: https://connect.squareup.com//
-  tags: History
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/square/openapi.md
 x-common:
 - type: x-website
   url: http://square.com
+- type: x-api-gallery
+  url: http://spreaker.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://square.stack.network
 - type: x-base
   url: https://connect.squareup.com
 - type: x-crunchbase

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS EC2
 x-complete: 1
@@ -12,6 +11,36 @@ produces:
 consumes:
 - application/json
 paths:
+  /?Action=DescribeSpotFleetRequestHistory:
+    get:
+      summary: Describe Spot Fleet Request History
+      description: Describes the events for the specified Spot fleet request during
+        the specified time.
+      operationId: describespotfleetrequesthistory
+      x-api-path-slug: actiondescribespotfleetrequesthistory-get
+      parameters:
+      - in: query
+        name: DryRun
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,       and provides an error response
+        type: string
+      - in: query
+        name: MaxResults
+        description: The maximum number of results to return in a single call
+        type: string
+      - in: query
+        name: NextToken
+        description: The token for the next set of results
+        type: string
+      - in: query
+        name: SpotFleetRequestId.N
+        description: The IDs of the Spot fleet requests
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Spot Fleet Request History
   /?Action=DescribeSpotPriceHistory:
     get:
       summary: Describe Spot Price History
@@ -72,34 +101,3 @@ paths:
           description: OK
       tags:
       - Spot Price History
-  /?Action=DescribeSpotFleetRequestHistory:
-    get:
-      summary: Describe Spot Fleet Request History
-      description: Describes the events for the specified Spot fleet request during
-        the specified time.
-      operationId: describespotfleetrequesthistory
-      x-api-path-slug: actiondescribespotfleetrequesthistory-get
-      parameters:
-      - in: query
-        name: DryRun
-        description: Checks whether you have the required permissions for the action,
-          without actually making the request,       and provides an error response
-        type: string
-      - in: query
-        name: MaxResults
-        description: The maximum number of results to return in a single call
-        type: string
-      - in: query
-        name: NextToken
-        description: The token for the next set of results
-        type: string
-      - in: query
-        name: SpotFleetRequestId.N
-        description: The IDs of the Spot fleet requests
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Spot Fleet Request History
----

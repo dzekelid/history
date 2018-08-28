@@ -9,48 +9,46 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe
 x-kinRank: "10"
 x-alexaRank: "1914"
 tags: History
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/stripe/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stripe Get Balance History
-  x-api-slug: stripe
+- name: Stripe - Get Balance History
+  x-api-slug: balancehistory-get
   description: Returns a list of transactions that have contributed to the Stripe
     account balance (e.g., charges, transfers, and so forth). The transactions are
     returned in sorted order, with the most recent transactions appearing first.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///balance/history
-  tags: Balance, History
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/stripe/balancehistory-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/stripe/balancehistory-get-openapi.md
-- name: Stripe Get Balance History
-  x-api-slug: stripe
+- name: Stripe - Get Balance History
+  x-api-slug: balancehistoryid-get
   description: Retrieves the balance transaction with the given ID.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///balance/history/{id}
-  tags: Balance, History
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/stripe/balancehistoryid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/stripe/balancehistoryid-get-openapi.md
-- name: Stripe
-  x-api-slug: stripe
-  description: Web and mobile payments, built for developers.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
-  humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1/
-  tags: History
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/stripe/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://stride.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://stripe.stack.network
 - type: x-base
   url: https://api.stripe.com/
 - type: x-blog

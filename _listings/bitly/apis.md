@@ -7,78 +7,61 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly
 x-kinRank: "8"
 x-alexaRank: "737"
 tags: History
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/bitly/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Bitly Domains API Get User Link History
-  x-api-slug: bitly-domains-api
+- name: Bitly - Get User Link History
+  x-api-slug: v3userlink-history-get
   description: Returns entries from a user's link history in reverse chronological
     order.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly.jpg
   humanURL: http://bitly.com
-  baseURL: https://api-ssl.bitly.com////v3/user/link_history
-  tags: User,Link,History
+  baseURL: https://api-ssl.bitly.com//
+  tags: Library, Universities, University Library, University In Progress, Stack Network,
+    Technology, SaaS, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/bitly/v3userlink-history-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/bitly/v3userlink-history-get-openapi.md
-- name: Bitly Domains API
-  x-api-slug: bitly-domains-api
-  description: Get the most out of your social and online marketing efforts. Own,
-    understand and activate your best audience through the power of the link with
-    Bitly Enterprise.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly.jpg
-  humanURL: http://bitly.com
-  baseURL: https://api-ssl.bitly.com//
-  tags: History
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/bitly/openapi.md
-- name: Bitly User API User Link History
-  x-api-slug: bitly-user-api
+- name: Bitly User API - User Link History
+  x-api-slug: v3userlink-history-get
   description: Returns entries from a users link history in reverse chronological
     order.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly.jpg
   humanURL: http://bitly.com
-  baseURL: https://api-ssl.bitly.com//v3//v3/user/link_history
-  tags: User,Link,History
+  baseURL: https://api-ssl.bitly.com//v3
+  tags: Library, Universities, University Library, University In Progress, Stack Network,
+    Technology, SaaS, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/bitly/v3userlink-history-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/bitly/v3userlink-history-get-openapi.md
-- name: Bitly User API User Network History
-  x-api-slug: bitly-user-api
+- name: Bitly User API - User Network History
+  x-api-slug: v3usernetwork-history-get
   description: Returns entries from a users network history in reverse chronogical
     order. (A users network history includes publicly saved links from Twitter and
     Facebook connections.)
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly.jpg
   humanURL: http://bitly.com
-  baseURL: https://api-ssl.bitly.com//v3//v3/user/network_history
-  tags: User,Network,History
+  baseURL: https://api-ssl.bitly.com//v3
+  tags: Library, Universities, University Library, University In Progress, Stack Network,
+    Technology, SaaS, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/bitly/v3usernetwork-history-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/bitly/v3usernetwork-history-get-openapi.md
-- name: Bitly User API
-  x-api-slug: bitly-user-api
-  description: Get the most out of your social and online marketing efforts. Own,
-    understand and activate your best audience through the power of the link with
-    Bitly Enterprise.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly.jpg
-  humanURL: http://bitly.com
-  baseURL: https://api-ssl.bitly.com//v3
-  tags: History
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/history/master/_listings/bitly/openapi.md
 x-common:
 - type: x--net-library
   url: http://code.google.com/p/bitly-dot-net
+- type: x-api-gallery
+  url: http://bitbucket.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://bitly.stack.network
 - type: x-application-management
   url: http://dev.bitly.com/my_apps.html
 - type: x-base
